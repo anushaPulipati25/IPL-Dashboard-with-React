@@ -1,0 +1,57 @@
+.matchCardContainer {
+  width: 48%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 10px;
+  margin-top: 15px;
+  /* margin-right: 10px; */
+  text-align: center;
+  padding: 12px;
+  justify-content: space-around;
+}
+.rmTeamLogo {
+  width: 30%;
+  height: 30%;
+}
+.rmTeam {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.rmResult {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.rmStatus {
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 0px;
+  /* color: #18ed66; */
+}
+.rmLostStatus {
+  color: #e31a1a;
+}
+.rmWonStatus {
+  color: #18ed66;
+}
+@media screen and (min-width: 567px) {
+  .matchCardContainer {
+    width: 32%;
+    margin-right: 6px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .matchCardContainer {
+    width: 24%;
+    margin-right: 8px;
+  }
+}

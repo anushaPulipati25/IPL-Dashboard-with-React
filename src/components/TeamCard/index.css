@@ -1,0 +1,71 @@
+.teamContainer {
+  width: 47%;
+  height: 18vh;
+  background-color: #ffffff33;
+  border: solid 2px #ffffff33;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.listTeamContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.teamLogo {
+  width: 22%;
+  margin-right: 6px;
+}
+.teamName {
+  color: #ffffff;
+  font-family: bree serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 567px) {
+  .teamContainer {
+    height: 22vh;
+    margin-bottom: 16px;
+  }
+  .listTeamContainer {
+    padding: 10px;
+  }
+  .teamLogo {
+    width: 26%;
+  }
+  .teamName {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .teamContainer {
+    height: 28vh;
+    margin-bottom: 18px;
+    padding: 10px;
+  }
+  .teamName {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .teamLogo {
+    width: 20%;
+  }
+  .teamContainer {
+    margin-bottom: 20px;
+  }
+  .teamName {
+    font-size: 32px;
+  }
+}
